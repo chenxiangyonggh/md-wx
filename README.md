@@ -1,4 +1,4 @@
-# @md-wx/react
+# @md-wx-chenxy/react
 
 专为微信公众号优化的 Markdown 渲染组件
 
@@ -15,7 +15,7 @@
 ## 安装
 
 ```bash
-npm install @md-wx/react
+npm install @md-wx-chenxy/react
 ```
 
 ## 快速使用
@@ -23,7 +23,7 @@ npm install @md-wx/react
 ### 完整组件
 
 ```tsx
-import { MarkdownRenderer } from '@md-wx/react'
+import { MarkdownRenderer } from '@md-wx-chenxy/react'
 
 function App() {
   const content = `# Hello World
@@ -57,7 +57,7 @@ import {
   CopyButton, 
   useTheme,
   parseMarkdown
-} from '@md-wx/react'
+} from '@md-wx-chenxy/react'
 
 function CustomPage() {
   const [viewMode, setViewMode] = useState('mobile')
@@ -185,7 +185,7 @@ function useTheme(initialTheme?: ThemeType): {
 主题配置对象
 
 ```tsx
-import { themes } from '@md-wx/react'
+import { themes } from '@md-wx-chenxy/react'
 
 console.log(themes.notion) // 获取 Notion 主题配置
 ```
@@ -266,7 +266,7 @@ interface IThemeConfig {
 ### 1. 基本使用
 
 ```tsx
-import { MarkdownRenderer } from '@md-wx/react'
+import { MarkdownRenderer } from '@md-wx-chenxy/react'
 
 function App() {
   const content = `# 标题
@@ -280,7 +280,7 @@ function App() {
 ### 2. 自定义主题和视图模式
 
 ```tsx
-import { MarkdownRenderer } from '@md-wx/react'
+import { MarkdownRenderer } from '@md-wx-chenxy/react'
 
 function App() {
   const content = '# Hello'
@@ -298,7 +298,7 @@ function App() {
 ### 3. 隐藏设置栏
 
 ```tsx
-import { MarkdownRenderer } from '@md-wx/react'
+import { MarkdownRenderer } from '@md-wx-chenxy/react'
 
 function App() {
   return (
@@ -313,7 +313,7 @@ function App() {
 ### 4. 复制回调
 
 ```tsx
-import { MarkdownRenderer } from '@md-wx/react'
+import { MarkdownRenderer } from '@md-wx-chenxy/react'
 
 function App() {
   const handleCopy = () => {
@@ -332,7 +332,7 @@ function App() {
 ### 5. 单独使用解析器
 
 ```tsx
-import { parseMarkdown, convertToWechatHtml, copyToClipboard } from '@md-wx/react'
+import { parseMarkdown, convertToWechatHtml, copyToClipboard } from '@md-wx-chenxy/react'
 
 function App() {
   const content = '# Hello World'
@@ -373,7 +373,7 @@ npm run build
 npm link
 
 # 在目标项目目录
-npm link @md-wx/react
+npm link @md-wx-chenxy/react
 ```
 
 ## License

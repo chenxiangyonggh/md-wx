@@ -198,7 +198,7 @@ md-wx/
 
 ```json
 {
-  "name": "@md-wx/react",
+  "name": "@md-wx-chenxy/react",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

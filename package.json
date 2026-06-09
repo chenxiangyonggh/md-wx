@@ -1,5 +1,5 @@
 {
-  "name": "@md-wx/react",
+  "name": "@md-wx-chenxy/react",
   "version": "1.0.0",
   "description": "Markdown renderer component optimized for WeChat Official Accounts",
   "main": "dist/index.js",

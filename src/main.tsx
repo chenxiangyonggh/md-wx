@@ -17,7 +17,7 @@ const defaultMarkdown = `# Markdown 渲染组件
 ## 代码示例
 
 \`\`\`javascript
-import { MarkdownRenderer } from '@md-wx/react';
+import { MarkdownRenderer } from '@md-wx-chenxy/react';
 
 function App() {
   const content = '# Hello World';
